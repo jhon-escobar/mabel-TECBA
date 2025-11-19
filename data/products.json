@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": "AG-QR-500",
+      "name": "Quinua Real Andes Gold",
+      "description": "Quinua precocida premium, lista en 5 minutos",
+      "price": 5990,
+      "type": "real",
+      "size": "500g",
+      "stock": 150,
+      "minStock": 20,
+      "image": "images/productos/quinua-500g.jpg",
+      "status": "active",
+      "createdAt": "2024-01-15",
+      "updatedAt": "2024-03-20"
+    },
+    {
+      "id": 2,
+      "sku": "AG-QR-1000",
+      "name": "Quinua Real Andes Gold",
+      "description": "Quinua precocida premium, lista en 5 minutos",
+      "price": 10990,
+      "type": "real",
+      "size": "1kg",
+      "stock": 80,
+      "minStock": 15,
+      "image": "images/productos/quinua-1kg.jpg",
+      "status": "active",
+      "createdAt": "2024-01-15",
+      "updatedAt": "2024-03-20"
+    },
+    {
+      "id": 3,
+      "sku": "AG-QO-500",
+      "name": "Quinua Orgánica Andes Gold",
+      "description": "Quinua orgánica precocida, certificada",
+      "price": 7990,
+      "type": "organica",
+      "size": "500g",
+      "stock": 5,
+      "minStock": 10,
+      "image": "images/productos/quinua-organica.jpg",
+      "status": "active",
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-03-20"
+    },
+    {
+      "id": 4,
+      "sku": "AG-QO-1000",
+      "name": "Quinua Orgánica Andes Gold",
+      "description": "Quinua orgánica precocida, certificada",
+      "price": 14990,
+      "type": "organica",
+      "size": "1kg",
+      "stock": 25,
+      "minStock": 8,
+      "image": "images/productos/quinua-organica.jpg",
+      "status": "active",
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-03-20"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "María González",
+      "email": "maria.gonzalez@email.com",
+      "phone": "+56912345678",
+      "registrationDate": "2024-01-10",
+      "totalOrders": 3,
+      "totalSpent": 41940,
+      "lastOrder": "2024-03-15",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Rodríguez",
+      "email": "carlos.rodriguez@email.com",
+      "phone": "+56987654321",
+      "registrationDate": "2024-02-05",
+      "totalOrders": 2,
+      "totalSpent": 35960,
+      "lastOrder": "2024-03-18",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Ana Silva",
+      "email": "ana.silva@email.com",
+      "phone": "+56955556666",
+      "registrationDate": "2024-03-01",
+      "totalOrders": 1,
+      "totalSpent": 44970,
+      "lastOrder": "2024-03-20",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Pedro Martínez",
+      "email": "pedro.martinez@email.com",
+      "phone": "+56944443333",
+      "registrationDate": "2024-02-20",
+      "totalOrders": 0,
+      "totalSpent": 0,
+      "lastOrder": null,
+      "status": "active"
+    }
+  ]
+}

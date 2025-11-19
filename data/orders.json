@@ -1,0 +1,98 @@
+{
+  "orders": [
+    {
+      "id": "ORD-2024-001",
+      "customerId": 1,
+      "customerName": "María González",
+      "customerEmail": "maria.gonzalez@email.com",
+      "customerPhone": "+56912345678",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Quinua Real Andes Gold",
+          "price": 5990,
+          "quantity": 2,
+          "total": 11980
+        }
+      ],
+      "subtotal": 11980,
+      "shipping": 2000,
+      "total": 13980,
+      "status": "entregado",
+      "paymentMethod": "webpay",
+      "shippingAddress": {
+        "street": "Av. Providencia 1234",
+        "city": "Santiago",
+        "region": "Región Metropolitana",
+        "zipCode": "7500000"
+      },
+      "createdAt": "2024-03-15T10:30:00",
+      "updatedAt": "2024-03-18T14:20:00"
+    },
+    {
+      "id": "ORD-2024-002",
+      "customerId": 2,
+      "customerName": "Carlos Rodríguez",
+      "customerEmail": "carlos.rodriguez@email.com",
+      "customerPhone": "+56987654321",
+      "items": [
+        {
+          "productId": 2,
+          "name": "Quinua Real Andes Gold",
+          "price": 10990,
+          "quantity": 1,
+          "total": 10990
+        },
+        {
+          "productId": 3,
+          "name": "Quinua Orgánica Andes Gold",
+          "price": 7990,
+          "quantity": 1,
+          "total": 7990
+        }
+      ],
+      "subtotal": 18980,
+      "shipping": 2000,
+      "total": 20980,
+      "status": "enviado",
+      "paymentMethod": "meru",
+      "shippingAddress": {
+        "street": "Av. Argentina 567",
+        "city": "Valparaíso",
+        "region": "Valparaíso",
+        "zipCode": "2340000"
+      },
+      "createdAt": "2024-03-18T09:15:00",
+      "updatedAt": "2024-03-19T16:45:00"
+    },
+    {
+      "id": "ORD-2024-003",
+      "customerId": 3,
+      "customerName": "Ana Silva",
+      "customerEmail": "ana.silva@email.com",
+      "customerPhone": "+56955556666",
+      "items": [
+        {
+          "productId": 4,
+          "name": "Quinua Orgánica Andes Gold",
+          "price": 14990,
+          "quantity": 3,
+          "total": 44970
+        }
+      ],
+      "subtotal": 44970,
+      "shipping": 0,
+      "total": 44970,
+      "status": "procesando",
+      "paymentMethod": "airtm",
+      "shippingAddress": {
+        "street": "Calle Los Olmos 890",
+        "city": "Concepción",
+        "region": "Biobío",
+        "zipCode": "4030000"
+      },
+      "createdAt": "2024-03-20T14:20:00",
+      "updatedAt": "2024-03-20T14:20:00"
+    }
+  ]
+}
