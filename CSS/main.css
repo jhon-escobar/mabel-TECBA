@@ -25,6 +25,27 @@ body {
     color: var(--text-dark);
     background-color: var(--background-light);
 }
+
+.portada {
+    position: relative;
+    width: 100vw;
+    height: 1200px;
+}
+
+.portada > img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+    object-fit: cover;
+}
+
+.hero-portada {
+    position: absolute;
+    z-index: 2;
+}
+
 .im_logo{
     width: 100px;
     height: 100px;
@@ -42,6 +63,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+    height: 120px;
     z-index: 1000;
 }
 
@@ -113,18 +135,17 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner-principal.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    width: 100%;
+    margin-top: 120px;
 }
 
 .hero-content {
-    color: var(--white);
-    max-width: 600px;
+    margin-top:70px;
+    margin-right:10%;
+    text-align: center;
 }
 
 .hero h1 {
@@ -132,6 +153,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 20px;
+    color: white;
 }
 
 .hero p {
@@ -421,7 +443,6 @@ body {
     border-top: 1px solid #444444;
     color: #CCCCCC;
 }
-
 /* Carrito Sidebar */
 .cart-sidebar {
     position: fixed;

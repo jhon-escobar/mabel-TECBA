@@ -5,7 +5,7 @@ const products = [
         name: "Quinua Real Andes Gold",
         description: "Quinua precocida premium, lista en 5 minutos",
         price: 5990,
-        image: "images/productos/quinua-500g.jpg",
+        image: "IMAGE/Productos/quinua real 500.jpg",
         type: "real",
         size: "500g"
     },
@@ -14,7 +14,7 @@ const products = [
         name: "Quinua Real Andes Gold",
         description: "Quinua precocida premium, lista en 5 minutos",
         price: 10990,
-        image: "images/productos/quinua-1kg.jpg",
+        image: "IMAGE/productos/quinua real papu.jpg",
         type: "real",
         size: "1kg"
     },
@@ -23,7 +23,7 @@ const products = [
         name: "Quinua Orgánica Andes Gold",
         description: "Quinua orgánica precocida, certificada",
         price: 7990,
-        image: "images/productos/quinua-organica.jpg",
+        image: "IMAGE/productos/Quinua-real-Organica.jpg",
         type: "organica",
         size: "500g"
     },
@@ -32,7 +32,7 @@ const products = [
         name: "Quinua Orgánica Andes Gold",
         description: "Quinua orgánica precocida, certificada",
         price: 14990,
-        image: "images/productos/quinua-organica.jpg",
+        image: "IMAGE/productos/quinua_500.jpg",
         type: "organica",
         size: "1kg"
     }
